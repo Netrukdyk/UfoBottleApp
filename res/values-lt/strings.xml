@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UFO Bottle</string>
+    <string name="start">Pradėti</string>
+    <string name="home">Į pradžią</string>
+    <string name="back">Atgal</string>
+    <string name="tryAgain">Bandyti dar kartą</string>
+    <string name="fill">Pilti</string>
+    <string name="message"></string>
+    <string name="scanQR">Nuskenuokite buteliuko apačioje esantį QR kodą.</string>
+    <string name="eNoBottle">Blogai įstatytas butelis</string>
+    <string name="title_activity_success">Success</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="thanks">Atlikta, paimkite butelį.\n\nDėkojame, kad naudojatės mūsų paslaugomis.</string>
+    <string name="title_activity_database_error">DatabaseError</string>
+    <string name="eNoData">Tokio buteliuko nėra duomenų bazėje.</string>
+    <string name="english">English</string>
+    <string name="lithuanian">Lietuviškai</string>
+    <string name="instruction">Atsukite kamštelį,\nįstatykite buteliuką\nir paspauskite \"Pilti\"</string>
+    <string name="bottle">Buteliukas</string>
+	<string name="leftfills">Liko užpildymų</string>
+</resources>

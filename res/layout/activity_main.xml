@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/rain"
+    android:orientation="horizontal" >
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="405dp"
+        android:layout_height="720dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="100dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="181dp"
+            android:gravity="center"
+            android:text="@string/start"
+            android:textColor="@android:color/primary_text_dark"
+            android:textSize="75sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/start"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/start"
+            android:layout_marginTop="29dp"
+            android:gravity="center_vertical" >
+
+            <Button
+                android:id="@+id/lang_en"
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/english" />
+
+            <Button
+                android:id="@+id/lang_lt"
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/lithuanian" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

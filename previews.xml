@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<previews>
+
+    <preview
+        name="eStar"
+        activity="com.bottle.Langas2"
+        config="layout-ldltr-sw768dp-w1024dp-h768dp-xlarge-notlong-land-notnight-xhdpi-finger-keyssoft-nokeys-navhidden-nonav-2048x1536-v19"
+        device="eStar"
+        devicestate="Landscape"
+        target="Android 4.4.2"
+        theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+    </preview>
+
+</previews>
